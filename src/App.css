@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  max-width: 1280px;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  font-weight: 400;
+  font-size: large;
+
+  gap: 16px;
+}
+
+nav button {
+  height: 24px;
+  font-size: medium;
+
+  border: 1px solid black;
+  background-color: rgb(171, 21, 21);
+  color: white;
+  width: 60px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  display: flex;
+  margin: 10px;
+  height: calc(100vh - 74px);
+
+  max-width: 1280px;
+  margin: auto;
+  align-items: center;
+}
+.heroContent h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 102px;
+}
+.heroContent p {
+  font-weight: 500;
+  color: rgb(35, 33, 33);
+  max-width: 400px;
+}
+.heroButtons {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+.heroButtons #btn1 {
+  height: 24px;
+  background-color: rgb(171, 21, 21);
+  color: white;
+  font-size: medium;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.heroButtons #btn2 {
+  height: 24px;
+  background-color: transparent;
+  color: black;
+  font-size: medium;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.ecomIcons {
+  display: flex;
+  gap: 12px;
+}
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
